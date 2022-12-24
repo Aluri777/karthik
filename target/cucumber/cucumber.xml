@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.975">
+    <testcase classname="I am doing automation functionality of Add Jobs in Orange HRM application" name="Create Jobs Record" time="0.078">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User launch chrome browser............................................undefined
+When User opens URL "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".skipped
+And User enters username as "Admin" and password as "admin123"..............skipped
+Then Go to Jobs Page........................................................skipped
+When Add Job name as "Sales13" and Job descr as "Sales13 descr" and Job note as "Sales13 Note".skipped
+When Click on logout button.................................................skipped
+Then Close Browser..........................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
